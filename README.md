@@ -13,7 +13,7 @@ CouchDB integration for Litestar.
 
 ## Features
 
--   Provides convenient Repository for Ormar adhering to Litestar\'s
+-   Provides convenient Repository for CouchDB adhering to Litestar\'s
     AbstractRepository.
 
 ```python
@@ -23,7 +23,7 @@ from myproject.schema import MyModelSchema
 
 
 class MyModelRepository(CouchRepository):
-    schema: Struct = MyModelSchema
+    model_type: Struct = MyModelSchema
 
 ```
 

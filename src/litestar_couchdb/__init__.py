@@ -1,9 +1,9 @@
-"""Top-level package for Litestar-Ormar."""
+"""Top-level package for Litestar-CouchDB."""
 
 __author__ = """Dominik Kozaczko"""
 __email__ = "dominik@kozaczko.info"
 __version__ = "0.0.1"
 
-from .repositories import OrmarRepository
+from .repositories import CouchRepository
 
-__all__ = ["OrmarRepository"]
+__all__ = ["CouchRepository"]

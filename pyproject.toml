@@ -6,7 +6,7 @@ authors = ["Dominik Kozaczko <dominik@kozaczko.info>"]
 license = "Apache-2.0"
 readme = "README.md"
 packages = [
-    { include = "litestar_ormar", from = "src" }
+    { include = "litestar_couchdb", from = "src" }
 ]
 
 [tool.poetry.dependencies]
